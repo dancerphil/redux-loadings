@@ -27,7 +27,8 @@
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
     "react-redux": "^5.0.7",
-    "redux": "^4.0.1"
+    "redux": "^4.0.1",
+    "region-core": "github:regionjs/region-core#develop"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.2",

@@ -1,7 +1,7 @@
-import '@babel/polyfill';
-import { Provider, getProvider } from './global/Provider';
-import { region } from './global/region';
-import Region from './region';
+import { getProvider, Region } from 'region-core';
+
+const Provider = getProvider();
+const region = new Region({ reducerPath: 'region' });
 
 export const { setConfig, getLoading, getResults, getFetchTimes, mapResultToProps, set, load, connectWith, reducer } = region;
 
