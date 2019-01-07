@@ -7,18 +7,20 @@
 
 A replacement tool of `redux` to handle sync & async action flow. Extremely simple API!
 
-[中文版](https://github.com/dancerphil/redux-loadings/blob/master/docs/README-zh_CN.md)
+[中文版](https://github.com/regionjs/region-core/blob/master/docs/README-zh_CN.md)
 
 ## Get Started
 
 ```bash
-npm i redux-loadings
+npm i region-shortcut
+// or
+npm i region-core
 ```
 
 Then create your Component
 
 ```jsx harmony
-import { connectWith } from 'redux-loadings';
+import { connectWith } from 'region-shortcut';
 import { fetchUser } from './fetch'; // somewhere with axios
 
 load('user', fetchUser);
@@ -31,7 +33,7 @@ export default connectWith('user', Display);
 or
 
 ```jsx harmony
-import { connectWith } from 'redux-loadings';
+import { connectWith } from 'region-shortcut';
 import { fetchUser, fetchFollower } from './fetch'; // somewhere with axios
 
 load('user', fetchUser);
@@ -50,26 +52,19 @@ export default connectWith(['user', 'follower'], Display);
 
 ## Docs
 
-[Document And Best Practices](https://github.com/dancerphil/redux-loadings/blob/master/docs/Document.md)
+[Document And Best Practices](https://github.com/regionjs/region-core/blob/master/docs/Document.md)
 
-[Migrate Guide](https://github.com/dancerphil/redux-loadings/blob/master/docs/Migrate.md)
+[Migrate Guide](https://github.com/regionjs/region-core/blob/master/docs/Migrate.md)
 
-[ChangeLog](https://github.com/dancerphil/redux-loadings/blob/master/docs/CHANGELOG.md)
+[ChangeLog](https://github.com/regionjs/region-core/blob/master/docs/CHANGELOG.md)
 
 ## Example
 
 [Online Example](https://dancerphil.github.io/redux-loadings/index.html)
 
 ```bash
-git clone https://github.com/dancerphil/redux-loadings.git
+git clone https://github.com/regionjs/region-core.git
 cd example
 npm i
 npm start
 ```
-
-## TODO
-
-- [ ] release 1.0 when everything is ready, push package-lock.json then
-- [ ] new site
-- [ ] loading => pendingMutex
-- [ ] change package name to react-name since redux is not related anymore
