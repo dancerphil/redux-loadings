@@ -5,6 +5,8 @@
 [![codecov](https://codecov.io/gh/dancerphil/redux-loadings/branch/develop/graph/badge.svg)](https://codecov.io/gh/dancerphil/redux-loadings)
 [![MIT License](https://img.shields.io/npm/l/redux-loadings.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
+[renamed to region-shortcut!!!](https://github.com/regionjs/region-shortcut)
+
 A replacement tool of `redux` to handle sync & async action flow. Extremely simple API!
 
 [中文版](https://github.com/regionjs/region-core/blob/master/docs/README-zh_CN.md)

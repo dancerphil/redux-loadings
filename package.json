@@ -5,15 +5,13 @@
   "keywords": [
     "react",
     "region-core",
-    "region-global"
+    "region-shortcut",
+    "redux-loadings"
   ],
   "repository": "github:dancerphil/redux-loadings",
   "license": "MIT",
   "author": "Cong Zhang <dancerphil1994@gmail.com>",
   "main": "./lib/index.js",
-  "directories": {
-    "example": "example"
-  },
   "scripts": {
     "build": "rm -rf lib/ && babel src --out-dir lib --ignore **/*.test.js",
     "check": "npm run build && npm run lint && npm run test",
