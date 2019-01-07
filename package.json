@@ -1,6 +1,6 @@
 {
   "name": "redux-loadings",
-  "version": "0.6.0-alpha.2",
+  "version": "0.6.0",
   "description": "redux-loadings",
   "keywords": [
     "react",
@@ -30,7 +30,7 @@
     "verbose": true
   },
   "dependencies": {
-    "region-core": "^0.6.0-alpha.2"
+    "region-core": "^0.6.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.2",

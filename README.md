@@ -1,11 +1,9 @@
-# redux-loadings
+# redux-loadings [renamed to region-shortcut!!!](https://github.com/regionjs/region-shortcut)
 
 [![version](https://img.shields.io/npm/v/redux-loadings.svg?style=flat-square)](http://npm.im/redux-loadings)
 [![npm downloads](https://img.shields.io/npm/dm/redux-loadings.svg?style=flat-square)](https://www.npmjs.com/package/redux-loadings)
 [![codecov](https://codecov.io/gh/dancerphil/redux-loadings/branch/develop/graph/badge.svg)](https://codecov.io/gh/dancerphil/redux-loadings)
 [![MIT License](https://img.shields.io/npm/l/redux-loadings.svg?style=flat-square)](http://opensource.org/licenses/MIT)
-
-[renamed to region-shortcut!!!](https://github.com/regionjs/region-shortcut)
 
 A replacement tool of `redux` to handle sync & async action flow. Extremely simple API!
 
