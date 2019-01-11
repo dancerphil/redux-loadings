@@ -6,9 +6,10 @@ const Provider = getProvider();
 const region = new Region('region');
 
 const mapResultToProps = region.private_selectorFactory;
+const reducer = region.private_reducer;
 
-export { mapResultToProps };
+export { mapResultToProps, reducer };
 
-export const { setConfig, getLoading, getResults, getFetchTimes, getError, set, load, connect, connectWith, reducer } = region;
+export const { setConfig, getLoading, getResults, getFetchTimes, getError, set, load, connect, connectWith } = region;
 
-export { Region, Provider, getProvider };
+export { Region, Provider, getProvider, region };
