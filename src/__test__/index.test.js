@@ -1,6 +1,6 @@
 import {
   set, load, connect, connectWith, Region, Provider, getProvider, region,
-  setConfig, getLoading, getResults, getFetchTimes, getError, mapResultToProps, reducer
+  setConfig, getLoading, getResults, getFetchTimes, getError, mapResultToProps, reducer,
 } from '../index';
 
 describe('exports', () => {
